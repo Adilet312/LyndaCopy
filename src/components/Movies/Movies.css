@@ -1,0 +1,19 @@
+ul{
+  display: grid;
+  grid-template-columns: minmax(500px, auto);
+  grid-template-rows: minmax(170px,auto);
+  list-style: none;
+
+}
+ul li{
+  cursor: pointer;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  position: relative;
+
+
+}
+ul li a{
+  text-decoration: none;
+  font-size: 13px;
+}

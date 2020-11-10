@@ -1,0 +1,30 @@
+section{
+
+  background-color:transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  color:black;
+  background: #fff;
+}
+section:hover{
+  background-color: #f7f7f7;
+  box-shadow: none;
+}
+section video{
+  border-radius: 10px;
+  margin: 10px;
+}
+
+section  .dislike-add{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items:center;
+width:100px;
+height: 160px;
+margin-left: 20px;
+margin-right: 20px;
+}
