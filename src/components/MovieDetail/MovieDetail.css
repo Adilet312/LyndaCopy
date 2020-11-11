@@ -1,0 +1,35 @@
+.movieDetail{
+  margin: 10%;
+  background-color:transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  color:black;
+  background: #fff;
+  box-sizing: border-box;
+}
+.movieDetail video{
+  border-radius: 10px;
+  width: 90%;
+  height: 100%;
+}
+.movieDetail div{
+  margin: 50px;
+}
+.add-description{
+  display: block;
+}
+.descriptionContainer{
+  width: 100%;
+  position: relative;
+}
+.descriptionContainer span{
+  position: absolute;
+  left:4%;
+  top:0px;
+}
+.descriptionContainer .add-description {
+  display: none;
+}
