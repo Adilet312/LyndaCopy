@@ -1,11 +1,11 @@
 import React,{ useState, useEffect, useContext,Fragment } from 'react';
+import Rating from '../Rating/Rating';
 import { AiOutlineArrowRight, AiOutlineArrowDown } from 'react-icons/ai';
-import { BsStar } from 'react-icons/bs';
 import './MovieDetail.css';
 
 const MovieDetail = ({art}) => {
   const [ showDescription, setShowDescription ] = useState(true);
-  const {video_url, name, description} = art;
+  const {video_url, name, description,popularity} = art;
   return(
     <Fragment>
       <section className = 'movieDetail'>
@@ -20,6 +20,7 @@ const MovieDetail = ({art}) => {
           }}>
             {showDescription ? (<AiOutlineArrowRight style = {{fontSize:"20px"}}/>) : (<AiOutlineArrowDown style = {{fontSize:"20px"}}/>)}
           </span>
+          <Rating popularity = {Number(popularity)}/>
           <div className = 'add-description'>
           {description}
           </div>

@@ -1,0 +1,12 @@
+.stars{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width:120px;
+  position: absolute;
+  right: 20px;
+  top:0px;
+
+
+}
