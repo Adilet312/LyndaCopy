@@ -1,5 +1,4 @@
 import React,{ useState, useEffect, useContext,Fragment } from 'react';
-import Rating from '../Rating/Rating';
 import { AiOutlineArrowRight, AiOutlineArrowDown } from 'react-icons/ai';
 import './MovieDetail.css';
 
@@ -20,7 +19,6 @@ const MovieDetail = ({art}) => {
           }}>
             {showDescription ? (<AiOutlineArrowRight style = {{fontSize:"20px"}}/>) : (<AiOutlineArrowDown style = {{fontSize:"20px"}}/>)}
           </span>
-          <Rating popularity = {Number(popularity)}/>
           <div className = 'add-description'>
           {description}
           </div>
