@@ -10,7 +10,7 @@ const App = () =>{
 
   const [videos,setVideos] = useState([]);
   const [searchTerm, setSearchTerm ] = useState(
-    localStorage.getItem('search') || 'plein air essentials'
+    localStorage.getItem('search') || 'Plein Air Essentials'
   )
   useEffect(() =>{
     const getVideos = async () =>{

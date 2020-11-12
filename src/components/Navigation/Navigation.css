@@ -2,10 +2,26 @@
   width:100%;
   height: 80px;
   background: black;
-  position:sticky;
+  position:relative;
   top:0px;
   left:0px;
   margin:0px;
   padding: 0px;
   z-index: 10;
+}
+.logo{
+  position: absolute;
+  left:20px;
+  font-size: 30px;
+  color: #fff;
+  font-family: Merienda One;
+}
+.search{
+  width: 400px;
+  height: 30px;
+  position: absolute;
+  left:35%;;
+  top:30px;
+  z-index: 10;
+  outline: none;
 }
