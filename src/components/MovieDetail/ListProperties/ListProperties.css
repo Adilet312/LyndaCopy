@@ -40,3 +40,9 @@
 .description-container .add-description {
   display: none;
 }
+.add-description img{
+  width:500px;
+  height: 300px;
+  position: relative;
+  margin-left:70%;
+}
