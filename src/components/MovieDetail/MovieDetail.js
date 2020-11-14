@@ -9,7 +9,7 @@ const MovieDetail = ({art}) => {
     <Fragment>
         <section className = 'movieDetail'>
           <h1 style = {{fontFamily:"Merienda One"}}>{name}</h1>
-          <video width = {448} height = {200} controls src = {video_url}/>
+          <video width = {300} height = {200} controls src = {video_url}/>
         </section>
         <ListProperties image = {image} created_by = {created_by} name = {name} description = {description} />
     </Fragment>

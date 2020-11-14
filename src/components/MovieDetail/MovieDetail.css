@@ -13,8 +13,8 @@
 }
 .movieDetail video{
   border-radius: 10px;
-  width: 90%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
 }
 .movieDetail div{
   margin: 50px;
