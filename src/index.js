@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App/App';
-
+// import App from './components/App/App';
+import Practice from './Practice';
 
 ReactDOM.render(
 
-  <App/>,
+  <Practice/>,
   document.getElementById('root')
 
 );

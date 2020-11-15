@@ -6,7 +6,7 @@ const Navigation = () =>{
   return(
     <Fragment>
       <header class= 'header'>
-        <h1 className = 'logo'>Lynda</h1>
+        <Link to = '/'><h1 className = 'logo'>Lynda</h1></Link>
         <Link to = '/' style = {{color:"#fff",fontSize:"30px",position:"absolute",right:"10px",top:"10px"}}><FaHome/></Link>
       </header>
     </Fragment>

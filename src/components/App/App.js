@@ -40,15 +40,15 @@ const App = () =>{
       <Switch>
 
         <Route exact path = '/' render = { (props) =>{
-           return<ArtContext.Provider value = {deleteArt}> <Movies videos = {searchVideos}/></ArtContext.Provider>
+           return<ArtContext.Provider value = {deleteArt}> <Movies videos = {videos}/></ArtContext.Provider>
           }
          }/>
-        <Route path='/art/:artId' render = {(props) => {
+        <Route  path='/art/:artId' render = {(props) => {
           let artId = Number(props.match.params.artId);
           let arrayOfArts = videos.filter(art => Number(art.id)===artId && art );
           let [ art ] = arrayOfArts;
-          console.log("detailVideo: ",art.video_url)
           return <MovieDetail art = {art}/>
+
         }}/>
       </Switch>
     </Router>
